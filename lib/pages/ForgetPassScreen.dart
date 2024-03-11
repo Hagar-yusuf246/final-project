@@ -113,7 +113,7 @@ class _ForgetPass_ScreenState extends State<ForgetPass_Screen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => VerifyCode_Screen()),
+                        builder: (context) =>  ChangePassword_Screen()),
                   );
                 },
                 child: customButton(text: 'Send Code')),
